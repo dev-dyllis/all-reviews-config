@@ -1,0 +1,24 @@
+server:
+  port: 8101
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/AR_DB?serverTimezone=UTC&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+    #initialization-mode: always
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    properties:
+      hinernate:
+        hdm2dll:
+          auto: update
+    show-sql: true
+security:
+  oauth2:
+    client:
+      client-id: all-review
+      client-secret: all-reviews-secret
+    resource:
+      jwt:
+        key-value: all-reviews12#4
