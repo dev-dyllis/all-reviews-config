@@ -17,8 +17,7 @@ spring:
 security:
   oauth2:
     client:
-      #client-id: all_reviews
-      client-id: auth_id
+      client-id: all_reviews
       client-secret: all_reviews_secret
     resource:
       jwt:
