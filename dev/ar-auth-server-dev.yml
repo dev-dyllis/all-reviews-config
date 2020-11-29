@@ -21,4 +21,4 @@ security:
       client-secret: all_reviews_secret
     resource:
       jwt:
-        key-value: all_reviews12#4
+        key-value: all_reviews
