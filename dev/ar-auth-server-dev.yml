@@ -20,7 +20,7 @@ security:
       #client-id: all_reviews
       #client-secret: all_reviews_secret
       client-id: auth_id
-      client-secret: auth_secret
+      client-secret: all_reviews_auth_secret
     resource:
       jwt:
         key-value: all_reviews
