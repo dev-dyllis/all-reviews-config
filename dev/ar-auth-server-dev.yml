@@ -18,9 +18,8 @@ security:
   oauth2:
     client:
       #client-id: all_reviews
-      #client-secret: all_reviews_secret
       client-id: auth_id
-      client-secret: all_reviews_auth_secret
+      client-secret: all_reviews_secret
     resource:
       jwt:
         key-value: all_reviews
