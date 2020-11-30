@@ -10,3 +10,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8102/eureka/
