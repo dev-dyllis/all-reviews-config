@@ -1,6 +1,6 @@
 server:
   port: 8102
- eureka:
+eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
