@@ -11,5 +11,7 @@ security:
 zuul:
   sensitive-headers: Cookie,Set-Cookie
   routes:
+    ar-auth-server:
+      path: /api/v1/auth/**
     ar-user-service:
       path: /api/v1/user/**
