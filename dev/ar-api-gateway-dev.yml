@@ -10,3 +10,6 @@ security:
         key-value: all_reviews
 zuul:
   sensitive-headers: Cookie,Set-Cookie
+  routes:
+    ar-user-service:
+      path: /api/v1/user/**
