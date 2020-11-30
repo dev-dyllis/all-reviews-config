@@ -8,3 +8,5 @@ security:
     resource:
       jwt:
         key-value: all_reviews
+zuul:
+  sensitive-headers: Cookie,Set-Cookie
