@@ -6,6 +6,9 @@ eureka:
       defaultZone: http://localhost:8102/eureka/
 management:
   endpoints:
+    health:
+      enabled: true
+      show-details: always
     web:
       exposure:
         include: "*"
