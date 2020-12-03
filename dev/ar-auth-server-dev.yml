@@ -22,3 +22,5 @@ security:
     resource:
       jwt:
         key-value: all_reviews
+oauth:
+  grant-type: password
