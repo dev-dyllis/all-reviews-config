@@ -13,6 +13,9 @@ management:
       exposure:
         include: "*"
 spring:
+  redis:
+    host: 192.168.0.100
+    port: 6379
   datasource:
     url: jdbc:mysql://localhost:3306/AR_DB?serverTimezone=UTC&characterEncoding=UTF-8
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -26,9 +29,6 @@ spring:
         hdm2dll:
           auto: update
     show-sql: true
-  redis:
-    host: 192.168.0.100
-    port: 6379
 security:
   oauth2:
     client:
